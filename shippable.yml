@@ -1,6 +1,7 @@
 language: python
 build_image: drydock/u12pytall:tip
-
+services:
+  - mysql
 python:
   - 2.7
   - 3.2
